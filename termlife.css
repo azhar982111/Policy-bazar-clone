@@ -1,0 +1,138 @@
+.img{
+    width:fit-content;
+    padding: 10px 20px 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.img:nth-child(1){
+    margin: -70px 0px 110px 20px;
+}
+.img:nth-child(2){
+    margin: -40px 0px 80px 20px;
+}
+.img:nth-child(3){
+    margin: -80px 0px 110px 20px;
+}
+.img:nth-child(4){
+    margin: -60px 0px 90px 20px;
+}
+.img > img{
+    height:30px;
+    width: 100px;
+    
+}
+#logo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+   
+    max-width: 300px;
+}
+#left{
+    width:500px;
+    border: 1px solid currentColor;
+    padding: 20px 10px 40px 120px;
+    
+}
+#left >div> p{
+
+    max-width:350px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    font-size:23px;
+    margin: -50px 0px 0px 0px;
+    background-color: lightsteelblue;
+}
+#container{
+    display: flex;
+}
+#box{
+    margin-left: 150px;
+}
+#blue>span{
+    color:blue;
+    font-size: 35px;
+}
+#box2{
+    height:20px;
+    max-width:450px;
+    font-size:20px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    padding: 10px 0px 10px 70px;
+}
+form>div>p{
+    margin: -10px 0px 0px 10px;
+    background-color: white;
+    max-width: fit-content;
+}
+div>select{
+    width:80px;
+    font-size: 15px;
+    border: none;
+
+}
+.input{
+    margin:10px;
+    border:none;
+    border:0;
+}
+form>div{
+    border: 1px solid black;
+    height:60px;
+    width:450px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+div>button{
+    color:white;
+    background-color: blue;
+    width:400px;
+    font-size: 15px;
+    padding: 20px 30px 20px 30px;
+    cursor:pointer;
+    margin:35px;
+    border: none;
+    border-radius: 5px;
+}
+#box3 > img{
+    height:35px;
+    width:35px;
+}
+#box3{
+    display: flex;
+    margin-left:50px;
+}
+#box3>p:last-child{
+    color:blue;
+    background-color: lightblue;
+    padding: 5px;
+    margin-top:-5px;
+    border-radius: 10px;
+    
+}
+#bottom{
+    text-align: center;
+    font-size:12px;
+    font-weight: 100;
+}
+#bottom>p>span{
+    color:blue;
+}
+#footer> button{
+color:white;
+background-color: blue;
+padding:10px 40px;
+max-width: fit-content;
+margin-bottom: -20px;
+
+}
+#footer> p{
+    text-align: center;
+    color:grey;
+    font-size:12px;
+    margin-bottom: -10px;
+}
+

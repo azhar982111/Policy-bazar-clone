@@ -1,0 +1,849 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+.blue-line{
+  background: #0065ff;
+  width: 70px;
+  height: 4px;
+  display: block;
+  margin-top: -10px;
+}
+
+#bannerContainer{
+    width: 95%;
+    padding: 0 10%;
+    box-sizing: border-box;
+    margin-top: 50px;  
+    margin: auto; 
+}
+
+#bannerContainer section{
+    display: flex;
+    /* flex-grow: 1 ; */
+}
+#bannerContainer section article{
+    
+    width: 50%;
+}
+#uspContainer{
+    display: flex;
+}
+
+#bannerContainer h1{
+    margin: 0;
+    font-weight: 300;
+    font-size: 230%;
+    margin-bottom: 6%;
+    color: #3B4C69;
+    margin-top: 8%;
+}
+#bannerContainer h1 span{
+    font-weight: 600;
+}
+#bannerContainer  i{
+    /* margin-top: %; */
+    margin-right: 2%;
+}
+#bannerContainer  #ispan1{
+    background: url('https://static.pbcdn.in/cdn/images/svg/home-page-icons.svg?v=6');
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+    background-size: 100%;
+}
+#bannerContainer   i img{
+    width: 37px;
+    height: 37px;
+}
+
+ #bannerContainer #ispan2{
+    background: url('https://static.pbcdn.in/cdn/images/svg/home-page-icons.svg?v=6');
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+    background-size: 100%;
+    background-position: 0 1.6%;
+    margin-left: 2%;
+} 
+ #bannerContainer article #displayImage{
+    height: 17rem;
+    width: auto;
+    vertical-align: auto;
+}
+#spanHeading1{
+    color: #776BFD;
+}
+#spanHeading2{
+    color: #FF9B2C;
+}
+#spanHeading1, #spanHeading2{
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0;
+} 
+#carouselArticle{
+    display: flex;
+}
+#carousel3{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#carousel3>span{
+    height: 40px;
+    width: 40px;
+  
+    font-size: small;
+   background-color: #E6FCFF;
+   padding: 2%;
+   border-radius: 5px;
+}
+#carousel3 > p>b{
+    font-size: 18px;
+}
+#viewPlans{
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: #0663F6;
+    color: white;
+    cursor: pointer;
+}
+#imge{
+    width: 128px;
+    height: 82px;
+    background-color: #F2F7FF;
+    border-radius: 8px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+}
+#allPolicy{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin-top: 40px;
+    /* margin-left: -20px; */
+    
+}
+#imge img{
+    width: 50px;
+  margin:auto ;
+}
+.policy p{
+    font-size: 14px;
+text-align: center;
+align-items: center;
+}
+.policy #imge a{
+  margin: auto;
+}
+#also{
+    margin: auto;
+}
+#pTage{
+    margin-left: 195px;
+    margin-bottom: -20px;
+    margin-top: 40px;
+    color: #0663F6;
+    font-weight: bolder;
+}
+#alsoBuy{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 75%;
+   gap: 15px;
+  margin: auto;
+    margin-top: 40px;
+}
+.also{
+    display: flex;
+    width: auto;
+    height: 50px;
+    border-radius: 8px;
+    box-shadow: 0 6px 16px rgb(52 105 203 / 16%);
+    padding: 1%;
+}
+
+#alsoBuy .also div{
+   height: 5px;
+   width: 5px;
+   background-color: #3B4C69;
+   border-radius: 50%;
+   margin-top: 6px;
+   margin-right: 5px;
+   margin-left: 10px;
+   color: #253858;
+}
+#alsoBuy .also b{
+    
+  margin-top: 20px;
+  margin-left: -50px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #253858;
+ }
+ #alsoBuy .also p{
+    font-weight: lighter;
+    margin-top: -0.5px;
+    font-size: 12px;
+    color: #253858;
+   }
+#insurance-div{
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+    padding: 3%;
+}
+   .main-div{
+    height: 220px;
+    width: 400px;
+   border-radius: 15px;
+   background: #7282ff url("https://static.pbcdn.in/cdn/images/home-v1/health-insurance-bg.png") right -1px top no-repeat;
+   }
+   
+   #health1{
+    display: flex;
+    justify-content: space-around;
+   
+   }
+   #health1 > img{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: -20px;
+   }
+   #heart{
+    margin-top: 15px;
+    line-height: 1px;
+    margin-left: -60px;
+   }
+   #heart p{
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    margin-left: 5px;
+   }
+   #heart img{
+    width: 35px;
+    
+   }
+   #dis{
+    color: white;
+    font-size: 22px;
+    margin-left: 25px;
+   }
+
+   /* 2nd main div */
+   .main-div1{
+    height: 220px;
+    width: 400px;
+   border-radius: 15px;
+   background: #4FDC95 url("https://static.pbcdn.in/cdn/images/home-v1/investment-plans-bg.png") right -1px top no-repeat;
+   }
+
+   #health2{
+    display: flex;
+    justify-content: space-around;
+   
+   }
+   #health2 > img{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: -20px;
+   }
+   #heart2{
+    margin-top: 15px;
+    line-height: 1px;
+    margin-left: -60px;
+   }
+   #heart2 p{
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    margin-left: 5px;
+   }
+   #heart2 img{
+    width: 35px;
+    
+   }
+   #dis2{
+    color: white;
+    font-size: 24px;
+    margin-left: 25px;
+   }
+
+   /* main-div 3 css? */
+
+   .main-div2{
+    height: 220px;
+    width: 400px;
+   border-radius: 15px;
+   background: #3CBBDA url("	https://static.pbcdn.in/cdn/images/home-v1/health-insurance-bg.png") right -1px top no-repeat;
+   }
+
+   #health3{
+    display: flex;
+    justify-content: space-around;
+   
+   }
+   #health3 > img{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: -20px;
+   }
+   #heart3{
+    margin-top: 15px;
+    line-height: 1px;
+    margin-left: -60px;
+   }
+   #heart3 p{
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    margin-left: 5px;
+   }
+   #heart3 img{
+    width: 35px;
+    
+   }
+   #dis3{
+    color: white;
+    font-size: 21px;
+    margin-left: 20px;
+   }
+
+   #insurance-colordiv{
+    width: 100%;
+    height: 300px;
+    background: #F2F7FF;
+    margin: 0;
+    padding: 0%;
+}
+
+/* best place div css */
+
+
+#best-place{
+    width: 100%;
+    height: 500px ;
+    background: url("https://static.pbcdn.in/cdn/images/home-v1/left-bg.png")left top no-repeat,url("	https://static.pbcdn.in/cdn/images/home-v1/right-bg.png")right top no-repeat
+    ;
+    display: flex;
+    justify-content: space-evenly;
+}
+#best-place > #pTag p{
+    color: black;
+    font-weight: 100;
+    font-size: 35px;
+    line-height: 45px;
+    margin-top: 80px;
+}
+#best-place > #pTag b{
+font-weight: 500;
+}
+
+.first-div{
+height: 180px;
+width: 230px;
+line-height: 20px;
+
+}
+#summeryinsurance{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+   margin-top: 50px;
+   margin-left: 50px;
+  
+}
+.info1{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-left:2px solid#2438d4;
+    border-radius: 5px;
+}
+.info2{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-left:2px solid#7585f9;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.info3{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-left:2px solid turquoise;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.info4{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-left:2px solid yellow;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.info1 .comtant{
+    margin-left: 20px;
+}
+.info2 .comtant{
+    margin-left: 20px;
+}
+.info3 .comtant{
+    margin-left: 20px;
+}
+.info4 .comtant{
+    margin-left: 20px;
+}
+
+/* advertisement div css */
+
+.main-adv-div{
+    width: 94.3%;
+    height: 100px;
+    padding: 3%;
+    margin-top: 30px;
+    background: #F2F7FF;
+}
+.advertisement-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 75%;
+    margin: auto;
+    gap: 20px;
+}
+.advertisement-div .first-div img{
+   width: 360px;
+   height: 100px;
+   
+}
+.main-pb-div{
+    width: 70%;
+    margin: auto;
+    padding: 3% 0;
+}
+.main-pb-div .pb-div {
+    width: 48%;
+}
+.main-pb-div .pb-div h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.main-pb-div .pb-div p{
+  font-size: 17px;
+  line-height: 30px;
+}
+  .main-pb-div .pb-div h5{
+   font-size: 17px;
+   font-weight: 500;
+   color: #267af9;
+   margin-top: -10px;
+  }
+.hover-div{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+  .hover-div .div-box{
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(180, 178, 178);
+    
+    
+  }
+  .div-box img{
+    width: 70px;
+    height: 80px;
+  }
+  .div-box .heading{
+    font-size: 20px;
+    /* margin-top: px; */
+    font-weight: 500;
+  }
+  .div-box .inner-div{
+    padding: 10%;
+    line-height: 20px;
+  }
+  .div-box .text{
+    margin-top: -11px;
+    font-size: 15px;
+  }
+  .div-box:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    
+  }
+
+
+   /* get the policy div  */
+  
+  .get-policy-cover{
+    height: 450px;
+    padding: 5%;
+    background-color: #F2F7FF;
+  }
+  
+   .get-policy{
+    width: 80%;
+    margin: auto;
+  }
+  .get-left p{
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .get-left #pTag2{
+    font-size: 20px;
+    font-weight: 400;
+    color: #5E6C84;
+  }
+  ul{
+    line-height: 30px;
+    font-size: 16px;
+    color: #3b4350;
+  }
+
+  .get-left #pTag3{
+    font-size: 18px;
+    font-weight: 400;
+    color: #5b6a81;
+    margin-top: 30px;
+  }
+  .get-left .play-img a{
+    width: 170px;
+    height: 50px;
+    display: inline-block;
+    background: url("https://static.pbcdn.in/cdn/images/webp/store-logo.webp" );
+    background-size: cover;
+    margin-right: 20px;
+  }
+  .get-policy{
+    display: flex;
+  }
+  .get-policy .get-right img{
+    width: 500px;
+    height: 400px;
+    margin-left: 50px;
+  }
+
+  /* reviews by costumers */
+
+
+  .all-costumers-div{
+    width: 100%;
+    height: 600px;
+    background: url("https://static.pbcdn.in/cdn/images/webp/testimonial-bg.webp")no-repeat center -40px;
+}
+.costumers-review{
+    width: 70%;
+    margin: auto;
+   
+   
+}
+.lower{
+    display: flex;
+    gap: 20px;
+    margin-top: 100px;
+}
+.costumers-review>p{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #333333;
+}
+  .reviews{
+width: 400px;
+    height: 290px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background-color: white;
+    text-align: center;
+    border-radius: 7px;
+  }
+ .review-contant{
+    width: 290px;
+    margin: auto;
+ }
+    
+.reviews .review-contant p:nth-last-of-type(2) {
+    font-size: 17px;
+    font-weight: 500;
+
+ }
+ .review-contant p:nth-child(3) {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  /*  our parteners  div */
+
+  .partener-container{
+    width: 100%;
+    height: 700px;
+    background-color: #F2F7FF;
+
+  }
+  .partener-container p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: -20px;
+    color: #828994;
+    
+  }
+  .partener-container h4{
+   font-size: 30px;
+   text-align: center;
+   font-weight: 500;
+   
+  }
+  .inner-container{
+    width: 70%;
+    margin: auto;
+   display: grid;
+   grid-template-columns: repeat(7,1fr); 
+gap: 20px;
+padding: 2%;
+  }
+  .inner-container img{
+    width: 130px;
+    height: 68px;
+    border-radius: 5px;
+  }
+
+  .invester-div {
+width: 100%;
+height: 250px;
+background: #F4F5F7;
+margin-top: -30px;
+
+    
+  }
+  .invester-div .all-img{
+    display: flex;
+  }
+   .invester-div .invester-img{
+    width: 70%;
+    margin: auto;
+  }
+  .invester-img p{
+    font-size: 30px;
+    font-weight: 500;
+    color: #253858;
+
+  } 
+
+  .invester-div .inv-img-div1{
+    width: 400px;
+    height: 100px;
+    background-color: white;
+    border-radius: 7px;
+   
+  }
+  .invester-div .inv-img-div1 img{
+   margin: auto;
+   display: block;
+   
+  }
+  .all-img{
+    width: 70%;
+    margin: auto;
+    margin-top: 40px;
+    gap: 20px;
+  }
+  .ques-div{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  
+  }
+  .ques-div .que-contant{
+    width: 333px;
+
+  }
+  .ques-div .que-contant .heading{
+  font-size: 30px;
+  font-weight: 500;
+  }
+  
+  .ques-div .que-contant .contant{
+    font-size: 16px;
+    line-height: 30px;
+    color: #253858;
+    }
+    .ques-div img{
+      height: 400px;
+      width: 466px;
+      max-width: 100%;
+      margin-top: 50px;
+     
+    }
+    /* .ques-div .email-help{
+      
+    } */
+    .genral-enquary{
+      width: 320px;
+      height: 90px;
+      border: 1px solid #7a867a;
+      border-radius: 12px;
+      display: flex;
+      padding: 2%;
+    }
+    .costumer-sales{
+      width: 320px;
+      height: 90px;
+      border: 1px solid #7a867a;
+      margin-top: 25px;
+      border-radius: 12px;
+      display: flex;
+      padding: 2%;
+      
+    }
+    .genral-enquary img{
+      width: 40px;
+      height: 40px;
+     margin: 20px;
+     cursor: pointer;
+    }
+    .costumer-sales img{
+      width: 40px;
+      height: 40px;
+      margin: 20px;
+      cursor: pointer;
+    }
+     .email{
+      line-height: 10px;
+    }
+    .p{
+      color: #5E6C84;
+    }
+    .p1{
+      color: #495366;
+    }
+    
+
+    /* Group Brand */
+
+    .grp-brand{
+display: flex;
+width: 73%;
+margin: auto;
+margin-top: 20px;
+    }
+    .grp-brand p{
+      font-size: 24px;
+      font-weight: 600;
+      margin-left: 20px;
+    }
+    .grp-brand img{
+      width: 120px;
+      height: 60px;
+      margin: 1.2%;
+      cursor: pointer;
+      margin-right: 20px;
+    }
+
+
+    
+    /* Home page footer  */
+
+
+    .main-footer-div{
+      display: flex;
+      width: 72%;
+      margin: auto;
+      margin-top: -40px;
+    }
+    .main-black{
+      height: 630px;
+      background-color: black;
+    }
+    .main-black p{
+      font-size: 24px;
+      font-weight: 600;
+      color: #FFFFFF;
+      margin-left: 200px;
+      padding: 3%;
+    }
+
+    .main-footer-div .insurance{
+      font-size: 20px;
+      font-weight: 600;
+
+    }
+      .main-footer-div .line ul{
+        line-height: 40px;
+        color: #FFFFFF;
+      }
+      .line{
+        height: 314.2px;
+        width: 273.6px;
+        display: flex;
+      }
+      .line li{
+        color: rgb(226, 221, 221);
+      }
+      .line img{
+        width: 60px;
+        height: 60px;
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-right: -10px;
+      }
+     
+      .below-footer-main{
+        height: 70px;
+        width: 100%;
+        background-color: #333333;
+      }
+      .below-footer-main .under-below{
+        display: flex;
+        color: rgb(146, 138, 138);
+        width: 70%;
+        margin: auto;
+        justify-content: space-between;
+        font-size: 16px;
+      }
+
+      /*Disclimer div */
+
+      .main-disclimer{
+        width: 1536px;
+        height: 150px;
+        background-color: black;
+        margin-top:-20px ;
+      }
+      .main-black p:nth-child(3){
+        font-size: 10px;
+        text-align: end;
+        margin-top: 100px;
+        margin-right: -35px;
+        font-weight: 200;
+        line-height: 15px;
+        color: gray;
+      }
+      .disclimer-div{
+        width: 80%;
+        margin: auto;
+       
+      }
+      .disclimer-div p{
+         text-align: center;
+         font-size: 12px;
+        
+      }
+      
+
+
+
+
+
+
+     
+
